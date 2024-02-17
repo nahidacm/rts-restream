@@ -30,7 +30,9 @@ Serve the static stream
 ```bash
 pm2 serve cctv-stream 3020 
 ```
-The video source should be available in: http://your-domain.com/playlist.m3u8
+The video source should be available in: http://your-domain.com:3020/playlist.m3u8
+
+Or simply `pm2 start` to use pm2 config file `ecosystem.config.js`
 
 ### Using hls.js in frontend
 Note: make sure you update the video source in following code
