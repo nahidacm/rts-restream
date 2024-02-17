@@ -24,7 +24,7 @@ In frontend, use some HLS player to steam this video.
 ### Using PM2 in backend
 Keep the converter process up and running in backend: 
 ```bash
-pm2 start ffmpeg-converter.sh --name rtsp-resteam`
+pm2 start ffmpeg-converter.sh --name rtsp-resteam-converter`
 ```
 Serve the static stream
 ```bash
