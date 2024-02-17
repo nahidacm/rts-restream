@@ -5,7 +5,7 @@ RTSP is mostly used in IP Camera. Javascript based browser's can't stream RTSP d
 
 This is a very simple and fast way of Re-stream RTSP.
 
-### Installatin
+### Installation
 in `ffmpeg-converter.sh` adjust your `VIDSOURCE` url. It should be your RTSP url.
 
 E.g: `VIDSOURCE="rtsp://user:pass@101.155.220.126:544/Streaming/channels/101"`
